@@ -20,6 +20,16 @@ def enc(slot = 0):
     except OSError:
         print("Alert! Directory creation failed")
 
+    # try:
+    #     os.mkdir(path2)
+    # except OSError:
+    #     print("Alert! Directory creation failed")
+
+    # try:
+    #     os.mkdir(path3)
+    # except OSError:
+    #     print("Alert! Directory creation failed")
+
     #Capturing the video
     cap = cv2.VideoCapture(slot) #default = 0 - For Laptop
     count = 0
